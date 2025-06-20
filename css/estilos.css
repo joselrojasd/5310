@@ -1,0 +1,95 @@
+/*
+    esta hoja de estilos fue creada con VSC
+*/
+
+thead{
+    background-color: #f14810;
+    color: white;
+    font-weight: bolder;
+}
+
+button {
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+}
+
+textarea, input {
+    accent-color: yellow;
+    background-color: yellow;
+}
+
+table {
+    /*text-align: center;*/
+    background-color: aliceblue;
+}
+
+.reprobados {
+    background-color: red;
+    color: white;
+}
+
+#celda-unica {
+    background-color: black;
+    color: white
+}
+
+.centrado {
+    text-align: center;
+}
+
+/* comentarios CSS */
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: beige;
+    font-size: 20px;
+} 
+
+a {
+    color:black;
+}
+
+.center {
+    text-align: center;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.kapakana {
+    text-align: center;
+    font-family: "Kapakana", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+h1 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    color:red;
+    background-color: yellow;
+}
+
+#sub-titulo{
+    color:chartreuse
+}
+
+/* selector de clase*/
+.parrafo-especial {
+    color:brown
+}
+
+h2{
+    text-decoration:underline
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+    color: blue;
+    line-height: 35px;
+}

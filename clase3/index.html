@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicando la maquetación y la semántica</title>
+    <link rel="stylesheet" href="../css/clase3.css">
+</head>
+<body>
+    <!-- semanticamente es el encabezado de la pagina -->
+    <header>
+        <img width="200" src="../img/logo-cadi-blanco.svg" alt="">
+        
+        <nav>
+            <a href="productos.html">Productos</a> |
+            <a href="nosotros.html">Nosotros</a> |
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <main id="main-section" class="verde">
+        <h1>Cursos presenciales y online</h1>
+        <p>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda quo dicta quibusdam, alias 
+           <span class="importante">voluptatibus</span> ea enim illo porro dignissimos possimus ut modi vero, dolores repudiandae omnis architecto tenetur ipsum explicabo!
+        </p>
+        <section>
+            <h2>Cursos</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, repellat voluptate quae 
+                <span class="importante">dignissimos</span> numquam earum delectus eligendi harum nulla eius laborum consequuntur voluptatum odio molestiae doloremque aliquid enim doloribus fugiat!
+            </p>
+            <div id="proximos-cursos">
+                <article>
+                    <img width="250" src="../img/html5.png" alt="">
+                    <p>HTML 5 y CSS3</p>
+                </article>
+                <article>
+                    <img width="250" src="../img/javascript.png" alt="">
+                    <p>JavaScript</p>
+                </article>
+                <article>
+                    <img width="250" src="../img/diseno-web-scaled.jpg" alt="">
+                    <p>Diseño Web</p>
+                </article>
+            </div>
+        </section>
+        <section>
+            <h2>Carreras</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis optio voluptatem nesciunt odio sequi ad sunt, obcaecati numquam molestias quo dignissimos, unde iste voluptas sit repellat! Blanditiis quis labore repellendus!
+            </p>
+        </section>
+    </main>
+    <section>
+        <h2>Ventajas de nuestros cursos</h2>
+        <ul id="lista-ventajas">
+            <li>Clases prácticas</li>
+            <li>Clases OnLine en vivo</li>
+            <li>Acceso por tiempo ilimitado a las grabaciones de las clases</li>
+            <li>Actividades para validar el aprendizaje</li>
+            <li>Certificado de conocimiento</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Pasos para inscribirse en un curso en CADI F1</h2>
+        <ol id="pasos-inscribirse">
+            <li>Seleccionar el curso de su preferencia de los cursos 
+            <a target="_blank" href="http://cadif1.com/curso" >disponibles</a>
+            </li>
+            <li>Verificar si tiene cumple con los pre requisitos para hacer el curso</li>
+            <li>Seleccionar la modalidad en la que desea realizar el curso
+                <ul>
+                   <li>Presencial</li> 
+                   <li>OnLine en vivo</li>
+                   <li>Clases grabadas</li>
+                </ul>
+            </li>
+            <li>Escribir en el chat para confirmar que haya cupos disponibles</li>
+            <li>Hacer el pago</li>
+            <li>Notificar el pago</li>
+        </ol>
+    </section>
+    <section>
+        <h2>Audios por separado</h2>
+        <article>
+            <h4>Pacman</h4>
+            <audio src="../mp3/pacman-dies.mp3" controls></audio>
+        </article>
+        <article>
+            <h4>Mario Bros</h4>
+            <audio src="../mp3/ringtones-super-mario-bros.mp3" controls></audio>
+        </article>
+        <article>
+            <h4>Whatsapp</h4>
+            <audio src="../mp3/whistle-campana-whatsapp.mp3" controls></audio>
+        </article>
+    </section>
+    <section>
+        <h2>Lista de reproducción</h2>
+        <audio controls loop  >
+            <source src="../mp3/pacman-dies.mp3" type="audio/mpeg" />
+            <source src="../mp3/ringtones-super-mario-bros.mp3" type="audio/mpeg" />
+        </audio>
+    </section>
+    <section>
+        <h2>Videos de clases</h2>
+        <video width="100%" src="../videos/free-videos.mp4" type="video/mp4" autoplay muted ></video>
+    </section>
+    <section>
+        <h2>Video de YouTube</h2>
+     
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/W7qHdAqcdV0?rel=0&si=LD-f2zUs24wqgcw9&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <footer>
+        <hr>
+        <p>
+            Todos los derechos reservados
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,63 @@
+
+header {
+    background-color: blue;
+}
+
+footer{
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.importante {
+    text-transform: uppercase;
+    color:orangered;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+nav {
+    background-color: aqua;
+    text-align: right;
+}
+
+#proximos-cursos {
+    background-color: burlywood;
+    text-align: center;
+}
+
+article{
+    background-color: beige;
+}
+
+a {
+    color:black
+}
+
+#pasos-inscribirse a{
+    color: blue;
+}
+
+h1{
+    background-color: cadetblue;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#lista-ventajas {
+    list-style:square;
+}
+
+main{
+    background-color: rgb(13, 166, 166) !important;
+    color: black;
+}
+
+.verde {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: green  
+}
+
+#main-section {
+    text-transform: capitalize;
+    background-color: chocolate;
+}

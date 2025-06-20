@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica de tablas</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Practicando tablas con HTML</h1>
+    </header>
+    <main>
+        <p>
+            Las tablas en el HTML son muy útiles para organizar los datos 
+            en filas y columnas. En cada celda se pueden colocar elementos de
+            cualquier tipo: parrafos, imagenes, vinculos, listas, etc
+        </p>
+        <table width="700" align="center" border="0">
+            <thead>
+                <tr>
+                    <th width="40">
+                        Nro
+                    </th>
+                    <th width="40">
+                        &nbsp;&nbsp;
+                    </th>
+                    <th>
+                        Cédula
+                    </th>
+                    <th>
+                        Nombre
+                    </th>
+                    <th>
+                        Desafío 1
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                   <td class="centrado">
+                    1
+                   </td> 
+                   <td>
+                    <a href="../img/cariela.png" target="_blank">
+                        <img src="../img/cariela.png" width="40" height="40" alt="">
+                    </a>
+                   </td>
+                   <td id="celda-unica">
+                    12.345.678
+                   </td>
+                   <td>
+                    Pedro Pérez Rojas
+                   </td>
+                   <td class="centrado">
+                    80
+                   </td>
+                </tr>
+                <tr class="reprobados"> <!-- segunda fila de contenido -->
+                    <td class="centrado">
+                        2
+                    </td>
+                    <td>
+                        <img src="../img/arnovio.png" width="40" height="40" alt="">
+                    </td>
+                    <td id="celda-unica">
+                        18.741.251
+                    </td>
+                    <td>
+                        Maria Rojas
+                    </td>
+                    <td class="centrado">
+                        78
+                    </td>
+                </tr>
+                <tr>
+                    <td class="centrado">
+                        3
+                    </td>
+                    <td>
+                        <img width="40" src="../img/angel.png" alt="">
+                    </td>
+                    <td>
+                        22.541.241
+                    </td>
+                    <td>
+                        Jose Rojas
+                    </td>
+                    <td class="centrado">
+                        60
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>En sste ejemplo se muestra como usar tablas e imagenes</p>
+    </footer>
+</body>
+</html>
